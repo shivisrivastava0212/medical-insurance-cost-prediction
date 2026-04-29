@@ -42,6 +42,17 @@ The plot below visualizes the model's accuracy, where points closer to the red d
 
 ![Actual vs Predicted Charges](results_plot.png)
 
+## 🔍 Key Insights & Analysis
+Beyond the numbers, the model provides significant insights into the factors driving medical insurance costs:
+
+* **Primary Drivers:** Analysis of the model coefficients confirms that **Smoker Status**, **Age**, and **BMI** have the highest positive correlation with medical charges.
+* **The "Smoker" Effect:** Being a smoker is the single most significant predictor, leading to a substantial increase in predicted insurance premiums.
+* **Data Transformation:** Categorical variables (Sex, Smoker, Region) were handled using **One-Hot Encoding** to ensure the Linear Regression model could process the non-numeric data effectively.
+
+## 📂 Dataset Information
+* **Source:** [Medical Cost Personal Datasets (Kaggle)](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+* **Description:** The dataset contains 1,338 records of beneficiary data, including health habits and demographic information.
+
 ## 💾 Model Artifacts
 - **insurance_model.pkl:** Serialized file containing the best model weights for direct deployment.
 
