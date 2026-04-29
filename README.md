@@ -48,10 +48,9 @@ The plot below visualizes the model's accuracy, where points closer to the red d
 - **insurance.csv:** The dataset used for training and testing.
 
 ## 💡 Future Improvements
--**Feature Engineering:** Implementing Polynomial features to capture non-linear trends.
--**Hyperparameter Tuning:** Using GridSearchCV to optimize the regression coefficients.
--**Advanced Modeling:** Testing Gradient Boosting algorithms (XGBoost) for potentially higher accuracy.
-
+* **Feature Engineering:** Implementing Polynomial features to capture non-linear trends.
+* **Hyperparameter Tuning:** Using `GridSearchCV` to optimize the regression coefficients.
+* **Advanced Modeling:** Testing Gradient Boosting algorithms (XGBoost) for potentially higher accuracy.
 ## 🚀 Deployment & Usage
 This model is serialized for production use. You can load the trained model without re-training:
 
